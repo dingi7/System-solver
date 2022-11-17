@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System solver</title>
+    <script src="/app.js"></script>
+</head>
+<body style="background-color:gray;">
+    
+    <form name="matrix">
+        <center><p><b>Въведете желаната система: </b></p>
+        <table cellspacing="8">
+        <tr>
+          <td valign="TOP"><table>
+            <tr>
+              <th>Използвайте следният формат: 1x -2y +3z = 7</th>
+              <tr><th>Изплозвайте коефициент пред всяко число! (x = 1x)</th></tr>
+
+            </tr>
+            <tr>
+              <td><br />
+              </td>
+            </tr>
+            <tr>
+                <td>1: <input type="text" name="eq1" id="eq1" size="25"></td>
+            </tr>
+            <tr>
+              <td><br />
+              </td>
+            </tr>
+            <tr>
+              <td>2: <input type="text" name="eq2" id="eq2" size="25"></td>
+            </tr>
+            <tr>
+              <td><br />
+              </td>
+            </tr>
+            <tr>
+                <td>3: <input type="text" name="eq3" id="eq3" size="25"></td>
+            </tr>
+          </table>
+          </td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><table cellspacing="4" cellpadding="4">
+            <br><br><br>
+            <tr>
+              <td align="CENTER">x1 = <input type="text" name="x1" id="x1" size="10"></td>
+            </tr>
+            <tr>
+              <td align="CENTER">x2 = <input type="text" name="x2" id="x2" size="10"></td>
+            </tr>
+            <tr>
+              <td align="CENTER">x3 = <input type="text" name="x3" id="x3" size="10"></td>
+            </tr>
+            <tr>
+                <td align="LEFT" valign="RIGHT">&nbsp;&nbsp;&nbsp;&nbsp; <input TYPE="button"
+                VALUE="Реши системата" SIZE="10" onClick="solve()"> &nbsp; <input type="reset" value="Изчисти полетата"> </td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        </table></center>
+        </form>    
+</body>
+</html>
