@@ -116,7 +116,7 @@ var t3 = a3
 // ALWAYS CHECK YOUR WORK
 
 if (t1[1] * a1[4] + t1[2] * a2[4] + t1[3]*a3[4] != t1[4] || t3[1] * a1[4] + t3[2] * a2[4] + t3[3]*a3[4] != t3[4] || t2[1] * a1[4] + t2[2] * a2[4] + t2[3]*a3[4] != t2[4])
-  { alert("\rThe Solution I found does not check out\r\rYou may have entered a system of equations which\r have no solution, or infinite solutions.") }
+  { alert("\rThe Solution I found does not check out\r\rYou may have entered a system of equations which\r have no solution, or infinite solutions."); return; }
 
 document.getElementById('x1').value=a1[4]
 document.getElementById('x2').value=a2[4]
